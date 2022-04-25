@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import CardsData from '../components/CardsData';
@@ -7,6 +7,11 @@ import { useDispatch } from 'react-redux';
 import { ADD } from '../redux/actions/actions';
 
 const Produtos = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     const [data, setData] = useState(CardsData);
 
     const dispatch = useDispatch();

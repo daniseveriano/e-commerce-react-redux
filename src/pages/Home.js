@@ -11,7 +11,7 @@ const Home = () => {
                 <Carousel.Item className="carousel">
                     <img
                         className="d-block w-100"
-                        src="./claudia-manas-iJrIqlApowk-unsplash.jpg"
+                        src="https://i.ibb.co/1Gy8whW/claudia-manas-i-Jr-Iql-Apowk-unsplash.jpg"
                         alt="First slide"
                     />
                     <Carousel.Caption style={{ zIndex: '1' }}>
@@ -22,7 +22,7 @@ const Home = () => {
                 <Carousel.Item className="carousel">
                     <img
                         className="d-block w-100"
-                        src="./olena-sergienko-e-41_WYjGPY-unsplash.jpg"
+                        src="https://i.ibb.co/Pmjm82W/olena-sergienko-e-41-WYj-GPY-unsplash.jpg"
                         alt="Second slide"
                     />
 
@@ -34,7 +34,7 @@ const Home = () => {
                 <Carousel.Item className="carousel">
                     <img
                         className="d-block w-100"
-                        src="./sarah-b-iZQDneG5KoY-unsplash.jpg"
+                        src="https://i.ibb.co/vHmQd8L/sarah-b-i-ZQDne-G5-Ko-Y-unsplash.jpg"
                         alt="Third slide"
                     />
 
@@ -46,7 +46,7 @@ const Home = () => {
             </Carousel>
             <div className='button_home'>
                 <p>Conheça os Nossos Produtos</p>
-                <a href='/e-commerce-react-redux/produtos/'><Button variant="outline-secondary" style={{ transition: '.5s ease-in-out' }}>Clique Aqui</Button>{' '}</a>
+                <Link to='/e-commerce-react-redux/produtos/'><Button variant="outline-secondary" style={{ transition: '.5s ease-in-out' }}>Clique Aqui</Button>{' '}</Link>
             </div>
         </>
     )
