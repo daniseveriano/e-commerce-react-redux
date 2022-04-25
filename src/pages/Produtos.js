@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import CardsData from './CardsData';
-import '../style.css';
+import CardsData from '../components/CardsData';
+import '../components/style.css';
 import { useDispatch } from 'react-redux';
-import { ADD } from '../../redux/actions/actions';
+import { ADD } from '../redux/actions/actions';
 
-const Cards = () => {
+const Produtos = () => {
     const [data, setData] = useState(CardsData);
 
     const dispatch = useDispatch();
@@ -46,4 +46,4 @@ const Cards = () => {
     )
 }
 
-export default Cards;
+export default Produtos;

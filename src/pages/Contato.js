@@ -1,7 +1,7 @@
 import React from 'react';
 import TextareaAutosize from '@mui/base/TextareaAutosize';
 import Button from 'react-bootstrap/Button';
-import '../style.css'
+import '../components/style.css';
 
 const Contato = () => {
     return (

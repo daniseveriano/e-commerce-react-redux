@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Badge from '@mui/material/Badge';
 import Nav from 'react-bootstrap/Nav';
 import Menu from '@mui/material/Menu';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import Table from 'react-bootstrap/Table';
 import { DLT } from '../redux/actions/actions';
@@ -53,9 +53,9 @@ const Header = () => {
 
                     <Navbar.Collapse id="basic-navbar-nav" style={{ background: 'white' }}>
                         <Nav className="me-auto">
-                            <Nav.Link href='/e-commerce-react-redux/'>Home</Nav.Link>
-                            <Nav.Link href='/e-commerce-react-redux/produtos'>Produtos</Nav.Link>
-                            <Nav.Link href='/e-commerce-react-redux/contato'>Contato</Nav.Link>
+                            <Nav.Link><Link to={'/e-commerce-react-redux/'} style={{ textDecoration: 'none', color: 'grey' }}>Home</Link></Nav.Link>
+                            <Nav.Link><Link to={'/e-commerce-react-redux/produtos'} style={{ textDecoration: 'none', color: 'grey' }}>Produtos</Link></Nav.Link>
+                            <Nav.Link><Link to={'/e-commerce-react-redux/contato'} style={{ textDecoration: 'none', color: 'grey' }}>Contato</Link></Nav.Link>
                         </Nav>
                         <Badge badgeContent={getdata.length} color="secondary" id="basic-button"
                             aria-controls={open ? 'basic-menu' : undefined}
