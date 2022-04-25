@@ -96,7 +96,7 @@ const Header = () => {
                                                     <>
                                                         <tr>
                                                             <td>
-                                                                <NavLink to={`/e-commerce-react-redux/cart/${e.id}`} onClick={handleClose}>
+                                                                <NavLink to={`/e-commerce-react-redux/produtos/${e.id}`} onClick={handleClose}>
                                                                     <img src={e.imgdata} style={{ width: '5rem', height: '5rem' }} alt='Produto' />
                                                                 </NavLink>
                                                             </td>

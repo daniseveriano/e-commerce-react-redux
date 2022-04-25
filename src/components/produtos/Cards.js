@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import CardsData from './CardsData';
-import './style.css';
+import '../style.css';
 import { useDispatch } from 'react-redux';
-import { ADD } from '../redux/actions/actions';
+import { ADD } from '../../redux/actions/actions';
 
 const Cards = () => {
     const [data, setData] = useState(CardsData);
