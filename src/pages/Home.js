@@ -2,6 +2,7 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
 import '../components/style.css';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -45,7 +46,7 @@ const Home = () => {
             </Carousel>
             <div className='button_home'>
                 <p>Conheça os Nossos Produtos</p>
-                <a href='/e-commerce-react-redux/produtos'><Button variant="outline-secondary" style={{ transition: '.5s ease-in-out' }}>Clique Aqui</Button></a>{' '}
+                <a href='/e-commerce-react-redux/produtos/'><Button variant="outline-secondary" style={{ transition: '.5s ease-in-out' }}>Clique Aqui</Button>{' '}</a>
             </div>
         </>
     )

@@ -48,7 +48,7 @@ const Header = () => {
         <>
             <Navbar className="sticky-top" bg="light" expand="lg" style={{ height: '73px' }}>
                 <Container className="d-flex flex-direction-row">
-                    <Navbar.Brand><a href='/e-commerce-react-redux/'><img src='https://svgshare.com/i/gY1.svg' style={{ height: '60px' }} /></a></Navbar.Brand>
+                    <Navbar.Brand><a href='/e-commerce-react-redux/'><img src='https://i.ibb.co/1rd1QLy/brand.png' style={{ height: '60px' }} /></a></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
                     <Navbar.Collapse id="basic-navbar-nav" style={{ background: 'white' }}>
